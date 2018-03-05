@@ -1,0 +1,12 @@
+{
+    "id": "driver/tool/antlr4",
+    "type": "package",
+    "value": {
+        "description": "Corto wrapper for antlr4 tool",
+        "author": "Terence Parr",
+        "version": "4.7.1",
+        "language": "c",
+        "use": ["corto"],
+        "managed": false
+    }
+}
