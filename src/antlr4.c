@@ -12,7 +12,7 @@ int cortomain(int argc, char *argv[]) {
     args[4] = "org.antlr.v4.Tool";
 
     memcpy(&args[5], &argv[1], (argc - 1) * sizeof(char*));
-    args[argc + 5] = NULL;
+    args[argc + 4] = NULL;
 
     corto_proc pid = corto_proc_run("java", args);
     if (!pid) {
